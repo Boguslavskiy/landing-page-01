@@ -1,0 +1,118 @@
+/********* HEADER ********/
+.header-top-section {
+  min-height: 110px;
+  background: #e9e9e9; }
+  .header-top-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+  .header-top-section .header-main-logo {
+    flex: 0 0 25%;
+    width: 250px;
+    height: 110px; }
+    .header-top-section .header-main-logo a {
+      display: block;
+      max-width: 100%;
+      min-height: 110px;
+      margin: 0 auto;
+      background-image: url("../img/TenableLogo_FullColor_RGB.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; }
+  .header-top-section .header-area {
+    display: flex;
+    flex: 0 0 70%;
+    justify-content: space-between;
+    align-items: center; }
+  .header-top-section .header-search-box {
+    font-size: 24px; }
+    .header-top-section .header-search-box form {
+      position: relative; }
+      .header-top-section .header-search-box form input, .header-top-section .header-search-box form button {
+        padding: 10px; }
+      .header-top-section .header-search-box form button {
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        border: none;
+        border-radius: 10px;
+        background-color: #024c61;
+        color: #fff; }
+      .header-top-section .header-search-box form input {
+        border-radius: 10px;
+        border: 4px solid #999999;
+        outline: none; }
+  .header-top-section .header-contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .header-top-section .header-contacts ul li:first-child {
+      padding-right: 30px; }
+    .header-top-section .header-contacts ul li {
+      font-size: 20px; }
+
+.header-nav-section {
+  background: #024c61; }
+  .header-nav-section nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0; }
+    .header-nav-section nav ul li {
+      display: inline-block; }
+    .header-nav-section nav ul a {
+      line-height: 65px;
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0 30px; }
+      .header-nav-section nav ul a:hover {
+        background: #0d84a5; }
+    .header-nav-section nav ul li.icon {
+      display: none; }
+
+/************* For tablets 768 px ****************/
+@media screen and (max-width: 768px) {
+  .header-top-section .container, .header-top-section .header-area, .header-top-section .header-contacts ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+  .header-top-section .header-search-box {
+    width: 440px; }
+    .header-top-section .header-search-box form input {
+      width: 100%; }
+  .header-top-section .header-contacts ul {
+    padding-left: 0; }
+    .header-top-section .header-contacts ul li:first-child {
+      padding-right: 0;
+      margin-bottom: 30px; }
+
+  .header-nav-section .topnav-off li:not(:first-child) {
+    display: none; }
+  .header-nav-section .topnav-off li.icon {
+    display: inline-block; }
+  .header-nav-section .topnav-on {
+    position: relative;
+    flex-direction: column; }
+    .header-nav-section .topnav-on li {
+      display: inline-block; }
+    .header-nav-section .topnav-on li.icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #0d84a5; } }
+/************* For phones 480 px ****************/
+@media screen and (max-width: 480px) {
+  .header-top-section .header-search-box {
+    width: 300px; }
+    .header-top-section .header-search-box form input {
+      width: 100%; } }
+
+/*# sourceMappingURL=header.css.map */

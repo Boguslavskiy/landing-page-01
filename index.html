@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <header>
@@ -34,13 +35,13 @@
         <div class="header-nav-section">
             <div class="container">
                 <nav>
-                    <ul>
-                        <li><a href="http://">Link</a></li>
-                        <li><a href="http://">Link</a></li>
-                        <li><a href="http://">Link</a></li>
-                        <li><a href="http://">Link</a></li>
-                        <li><a href="http://">Link</a></li>
-                        <li><a href="http://">Link</a></li>
+                    <ul id="myTopNav" class="topnav-off">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="icon"><a href="javascript:void(0)" onclick="topNavigation()">&#9776;</a></li>
                     </ul>
                 </nav>
             </div>
@@ -54,5 +55,7 @@
         <div class="container"></div>
     </section>
     <footer></footer>
+
+    <script src="js/topnav.js" defer></script>
 </body>
 </html>
