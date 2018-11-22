@@ -19,4 +19,9 @@ li {
   margin: 0 auto;
 }
 
+.container-large {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */

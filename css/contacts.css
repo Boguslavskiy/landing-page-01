@@ -1,0 +1,51 @@
+#contacts .contacts-list {
+  position: relative; }
+  #contacts .contacts-list .google-map {
+    height: 600px; }
+  #contacts .contacts-list .feedback-form {
+    position: absolute;
+    padding: 30px 50px;
+    background: #024c61;
+    width: 450px;
+    top: 50px;
+    right: 4px; }
+    #contacts .contacts-list .feedback-form h3 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 2rem;
+      text-align: center; }
+    #contacts .contacts-list .feedback-form form {
+      display: flex;
+      flex-direction: column; }
+      #contacts .contacts-list .feedback-form form input, #contacts .contacts-list .feedback-form form select {
+        font-size: 32px;
+        margin-bottom: 16px;
+        padding: 10px;
+        border: 0;
+        border-radius: 12px;
+        outline: none; }
+      #contacts .contacts-list .feedback-form form button {
+        font-size: 22px;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #eb1a21;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0 30px;
+        line-height: 50px;
+        border: 0;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer; }
+
+@media screen and (max-width: 980px) {
+  #contacts .contacts-list .feedback-form {
+    width: 45%; } }
+@media screen and (max-width: 640px) {
+  #contacts .contacts-list .google-map {
+    height: 420px; }
+  #contacts .contacts-list .feedback-form {
+    position: inherit;
+    width: 100%; } }
+
+/*# sourceMappingURL=contacts.css.map */

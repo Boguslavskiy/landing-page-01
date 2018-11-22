@@ -20,9 +20,10 @@
     max-width: 60%;
     padding: 0 20px; }
     #banner-home .banner-home-inner h1 {
-      font-size: 6rem;
+      font-size: 5.5rem;
       margin: 20px 0;
-      color: #fff; }
+      color: #fff;
+      text-transform: uppercase; }
       #banner-home .banner-home-inner h1 span {
         font-size: 2rem;
         display: block;
